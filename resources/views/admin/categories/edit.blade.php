@@ -18,8 +18,8 @@
         </div>
         <div class="mb-3">
             <label for="name_ar">Arabic Name</label>
-            <input type="text" name="name_ar" id="name_ar" placeholder="Arabic Name"
-                class="form-control"value="{{ $category->name_ar }}">
+            <input type="text" name="name_ar" id="name_ar" placeholder="Arabic Name" class="form-control"
+                value="{{ $category->name_ar }}">
         </div>
         <div class="mb-3">
             <label for="image">Image</label>
