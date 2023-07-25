@@ -25,7 +25,7 @@
                 <td>{{ $category->id }}</td>
                 <td>{{ $category->name_en }}</td>
                 <td>{{ $category->name_ar }}</td>
-                <td> <img width="80" src="{{ asset('uploads/' . $category->image) }}" alt=""> </td>
+                <td> <img width="81" src="{{ asset('uploads/' . $category->image) }}" alt=""> </td>
                 <td>
                     <a href="{{ route('admin.categories.edit', $category->id) }}" class="btn btn-sm btn-primary"><i
                             class="fas fa-edit"></i></a>
