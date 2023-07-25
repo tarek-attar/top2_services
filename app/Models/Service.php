@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Service extends Model
 {
     use HasFactory;
-
+    protected $fillable = ['name_en', 'name_ar', 'image', 'content_en', 'content_ar', 'price', 'category_id', 'user_id'];
     public function user()
     {
         return $this->belongsTo(User::class)->withDefault();
